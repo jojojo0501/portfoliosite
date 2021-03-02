@@ -47,6 +47,11 @@ section:nth-of-type(2n) {
   background-color: #dbedf0;
 }
 
+section .icon {
+  margin-right: 15px;
+  font-size: 1.2em;
+}
+
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
@@ -269,8 +274,8 @@ Top-section
 .s-skill h3 {
   font-size: 22px;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .s-skill dl {
@@ -280,8 +285,8 @@ Top-section
 
 .s-skill dt {
   color: #1760a0;
-  margin-bottom: 5px;
-  font-size: 22px;
+  margin-bottom: 15px;
+  font-size: 24px;
   font-weight: 800;
 }
 
@@ -289,7 +294,8 @@ Top-section
   width: 100%;
   color: #333;
   font-size: 20px;
-  line-height: 1.8;
+  line-height: 2.2;
+  letter-spacing: 0.1em;
   margin-bottom: 30px;
 }
 
@@ -301,6 +307,16 @@ Top-section
 /*--------------------------------
 Works
 ---------------------------------*/
+.s-works__container ul {
+  padding-left: 25px;
+}
+
+.s-works__img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .s-works__item {
   margin-top: 40px;
 }
@@ -309,6 +325,41 @@ Works
   font-weight: 600;
   text-align: center;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1760a0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 164, 145, 0.2)), to(rgba(128, 164, 145, 0.2)));
+  background: linear-gradient(to bottom, rgba(128, 164, 145, 0.2) 0%, rgba(128, 164, 145, 0.2) 100%);
+  padding: 20px;
+  width: 40vw;
+}
+
+.s-works__content {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.s-works__content h4 {
+  color: #1760a0;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.s-works__content li {
+  font-size: 20px;
+  line-height: 2.2;
+  letter-spacing: 0.1em;
+}
+
+.s-works__content a {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.s-works__content a:hover {
+  color: #80a491;
 }
 
 /*--------------------------------
