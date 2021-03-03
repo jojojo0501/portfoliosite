@@ -318,7 +318,8 @@ Works
 }
 
 .s-works__item {
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .s-works__item h3 {
@@ -386,8 +387,51 @@ Works
 }
 
 .s-contact__text {
-  margin-top: 10px;
+  color: #333;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.s-contact .contact-form {
+  margin-top: 40px;
+}
+
+.s-contact .form-group textarea {
+  height: 350px;
+}
+
+.s-contact .form-group button {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  color: #FFF;
+  background: #1ca9e3;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.s-contact .form-group button:hover {
+  background: #1760a0;
+}
+
+.s-contact .col-form-label {
+  color: #1760a0;
+  font-weight: 600;
+  font-size: 20px;
   text-align: center;
+}
+
+.s-contact__mail {
+  text-align: center;
+}
+
+.s-contact__mail a {
+  font-size: 20px;
+  color: #333;
+}
+
+.s-contact__mail a:hover {
+  color: #80a491;
 }
 
 /*--------------------------------
