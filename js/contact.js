@@ -7,32 +7,30 @@ var validate = function() {
 
 	// お名前の入力をチェック
 	if(document.form.name.value == ""){
-		errorElement(document.form.name, "お名前が入力されていません");
+		errorElement(document.form.name, "お名前を入力してください。");
 		flag = false;
 	}
 
 	// メールアドレスの入力をチェック
 	if(document.form.email.value == ""){
-		errorElement(document.form.email, "メールアドレスが入力されていません");
+		errorElement(document.form.email, "メールアドレスを入力してください。");
 		flag = false;
 	} else {
 		// メールアドレスの形式をチェック
 		if(!validateMail(document.form.email.value)){
-			errorElement(document.form.email, "メールアドレスが正しくありません");
+			errorElement(document.form.email, "メールアドレスの形式が正しくありません。");
 			flag = false;
 		}
 	}
 
 	// お問い合わせ内容の入力をチェック
 	if(document.form.content.value == ""){
-		errorElement(document.form.content, "お問い合わせ内容が入力されていません");
+		errorElement(document.form.content, "お問い合わせ内容を入力してください。");
 		flag = false;
 	}
 
 	return flag;
 }
-
-
 
 var errorElement = function(form, msg) {
 	form.className = "error-form";

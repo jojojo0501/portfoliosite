@@ -36,10 +36,6 @@
         <div class="s-top__container">
           <h1>PORTFOLIO</h1>
           <h2>JOTA KANEKO</h2>
-      
-          <!-- <p>お忙しい中、ご覧いただきありがとうございます。<br>ここは、バックエンドエンジニアを目指している<br>金子丈太のポートフォリオサイトです。<br>
-          これまでの学習で、手がけた作品を紹介しています。 -->
-          </p>
           <div>
             <a href="#about-section" class='next-section'>▼</a>
           </div>
@@ -274,7 +270,9 @@
                 <a class="s-contact__link" href="https://twitter.com/sa04ru18kiti/" target="_blank"><img src="img/contact/icon_tw.png" alt=""></a>
               </li>
             </ul>
-            <div class="s-contact__mail"><a href="mailto:sarukiti0418@outlook.jp" target="_blank">sarukiti0418@outlook.jp</a></div>
+            <div class="s-contact__mail">
+              <a href="mailto:sarukiti0418@outlook.jp" target="_blank">sarukiti0418@outlook.jp</a>
+          </div>
       </section>
       <!-- /.contact-section -->
     </main>　
@@ -290,8 +288,6 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
-  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
   <script type='text/javascript' src="js/script.js"></script>
   <script type='text/javascript' src="js/contact.js"></script>
 </body>

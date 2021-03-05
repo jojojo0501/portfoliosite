@@ -28,6 +28,7 @@ img {
 }
 section {
   padding: 40px 40px;
+  background-color: #dbedf0;
   .section__title {
     text-align: center;
     font-family: "Open sans", sans-serif;
@@ -45,14 +46,7 @@ section {
 
   .section__text {
     text-align: center;
-  }
-
-  &:nth-of-type(2n+1) {
-    background-color: #dbedf0;
-  }
-  &:nth-of-type(2n) {
-    background-color: #dbedf0;
-  }
+  }  
 
   .icon {
     margin-right: 15px;
@@ -370,8 +364,8 @@ Works
   &__list {
     display: flex;
     align-items: flex-end;
-    flex-wrap: wrap;
     justify-content: center;
+    margin:3vh 0;
   }
   
   &__item {
@@ -390,14 +384,19 @@ Works
     margin-top: 40px;
   }
 
+  .form-group input {
+    width: 100%;
+  }
+
   .form-group textarea {
+    width: 100%;
     height: 350px;
   }
 
   .form-group button {
     display: block;
-    margin: 0 auto;
-    width: 70%;
+    text-align: center;
+    width: 50%;
     color: #FFF;
     background: #1ca9e3;
     font-size: 20px;
@@ -436,21 +435,10 @@ Works
 footer {
   background-color: #333;
 
-
   .copyright {
     font-size: 10px;
     text-align: center;
     color: #8c8c8c;
-  }
-  
-  .page-top {
-    font-size: 12px;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
-    background-color: #FFF;
   }
 }
   /*--------------------------------
@@ -481,6 +469,132 @@ footer {
   opacity: 1;
 }
   
+  /*--------------------------------
+ お問い合わせ確認ページ
+---------------------------------*/
+.p-confirm {
+  background-color: #dbedf0;
+  height: 100vh;
+  &__container {
+    width: 60%;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    & p {
+      text-align: center;
+      margin-bottom: 5vh;
+      color:#333;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+    }
 
+    & h2 {
+      text-align: center;
+      font-family: "Open sans", sans-serif;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: 15px;
+      letter-spacing: .05em;
+      color:#80a491;
+      margin-bottom: 5vh;
+    }
+  & table {
+    min-height: 30vh;
+    & th {
+      font-size: 26px;
+      color:#1760a0;
+      font-weight: 600;
+    }
+    & td {
+      font-size: 20px;
+      color: #333;
+    }
+  }
 
+  .button {
+    display: flex;
+  }
 
+  .btn__back{
+    display: block;
+    margin: 30px auto;
+    width: 40%;
+    color: #FFF;
+    background: #00BB00;
+    font-size: 20px;
+    font-weight: 600;
+    &:hover {
+      background: green;
+      color:#FFF;
+    }
+  }
+
+  .btn__submit {
+    display: block;
+    margin: 30px auto;
+    width: 40%;
+    color: #FFF;
+    background: #1ca9e3;
+    font-size: 20px;
+    font-weight: 600;
+    &:hover {
+      background: #1760a0;
+      color:#FFF;
+    }
+  }
+  
+  }
+}
+
+.error {
+  color:red;
+  font-weight: 600;
+}
+
+  /*--------------------------------
+ thanksページ
+---------------------------------*/
+.p-thanks {
+  background-color: #dbedf0;
+  height: 100vh;
+
+  &__container {
+    width: 60%;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    & p {
+      text-align: center;
+      margin-bottom: 5vh;
+      color:#333;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+    }
+    & h2 {
+      text-align: center;
+      font-family: "Open sans", sans-serif;
+      font-size: 44px;
+      font-weight: normal;
+      line-height: 1;
+      margin-bottom: 15px;
+      letter-spacing: .05em;
+      color:#80a491;
+      margin-bottom: 5vh;
+    }
+
+    .btn__back {
+      display: block;
+      margin: 30px auto;
+      width: 40%;
+      color: #FFF;
+      background: #00BB00;
+      font-size: 20px;
+      font-weight: 600;
+      &:hover {
+        background: green;
+        color:#FFF;
+      }
+    }
+  }
+}

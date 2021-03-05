@@ -21,6 +21,7 @@ img {
 
 section {
   padding: 40px 40px;
+  background-color: #dbedf0;
 }
 
 section .section__title {
@@ -37,14 +38,6 @@ section .section__title {
 
 section .section__text {
   text-align: center;
-}
-
-section:nth-of-type(2n+1) {
-  background-color: #dbedf0;
-}
-
-section:nth-of-type(2n) {
-  background-color: #dbedf0;
 }
 
 section .icon {
@@ -373,11 +366,10 @@ Works
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 3vh 0;
 }
 
 .s-contact__item {
@@ -396,14 +388,19 @@ Works
   margin-top: 40px;
 }
 
+.s-contact .form-group input {
+  width: 100%;
+}
+
 .s-contact .form-group textarea {
+  width: 100%;
   height: 350px;
 }
 
 .s-contact .form-group button {
   display: block;
-  margin: 0 auto;
-  width: 70%;
+  text-align: center;
+  width: 50%;
   color: #FFF;
   background: #1ca9e3;
   font-size: 20px;
@@ -451,16 +448,6 @@ footer .copyright {
   color: #8c8c8c;
 }
 
-footer .page-top {
-  font-size: 12px;
-  font-weight: bold;
-  display: block;
-  padding: 10px;
-  cursor: pointer;
-  text-align: center;
-  background-color: #FFF;
-}
-
 /*--------------------------------
  トップへ戻るボタン
 ---------------------------------*/
@@ -484,5 +471,146 @@ footer .page-top {
 /* マウスを乗せた時に透明度を変える */
 #js-page-top:hover {
   opacity: 1;
+}
+
+/*--------------------------------
+ お問い合わせ確認ページ
+---------------------------------*/
+.p-confirm {
+  background-color: #dbedf0;
+  height: 100vh;
+}
+
+.p-confirm__container {
+  width: 60%;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-confirm__container p {
+  text-align: center;
+  margin-bottom: 5vh;
+  color: #333;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.p-confirm__container h2 {
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 15px;
+  letter-spacing: .05em;
+  color: #80a491;
+  margin-bottom: 5vh;
+}
+
+.p-confirm__container table {
+  min-height: 30vh;
+}
+
+.p-confirm__container table th {
+  font-size: 26px;
+  color: #1760a0;
+  font-weight: 600;
+}
+
+.p-confirm__container table td {
+  font-size: 20px;
+  color: #333;
+}
+
+.p-confirm__container .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.p-confirm__container .btn__back {
+  display: block;
+  margin: 30px auto;
+  width: 40%;
+  color: #FFF;
+  background: #00BB00;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p-confirm__container .btn__back:hover {
+  background: green;
+  color: #FFF;
+}
+
+.p-confirm__container .btn__submit {
+  display: block;
+  margin: 30px auto;
+  width: 40%;
+  color: #FFF;
+  background: #1ca9e3;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p-confirm__container .btn__submit:hover {
+  background: #1760a0;
+  color: #FFF;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+}
+
+/*--------------------------------
+ thanksページ
+---------------------------------*/
+.p-thanks {
+  background-color: #dbedf0;
+  height: 100vh;
+}
+
+.p-thanks__container {
+  width: 60%;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-thanks__container p {
+  text-align: center;
+  margin-bottom: 5vh;
+  color: #333;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.p-thanks__container h2 {
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 15px;
+  letter-spacing: .05em;
+  color: #80a491;
+  margin-bottom: 5vh;
+}
+
+.p-thanks__container .btn__back {
+  display: block;
+  margin: 30px auto;
+  width: 40%;
+  color: #FFF;
+  background: #00BB00;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p-thanks__container .btn__back:hover {
+  background: green;
+  color: #FFF;
 }
 /*# sourceMappingURL=style.css.map */
