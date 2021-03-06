@@ -19,9 +19,25 @@ img {
   vertical-align: middle;
 }
 
+body {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dbedf0 !important;
+}
+
+main {
+  height: 100%;
+  width: 100vw;
+}
+
+span {
+  display: inline-block;
+}
+
 section {
+  width: 100vw;
   padding: 40px 40px;
-  background-color: #dbedf0;
 }
 
 section .section__title {
@@ -43,6 +59,12 @@ section .section__text {
 section .icon {
   margin-right: 15px;
   font-size: 1.2em;
+}
+
+@media screen and (max-width: 576px) {
+  section {
+    padding: 10px 10px;
+  }
 }
 
 /*--------------------------------
@@ -174,9 +196,18 @@ Top-section
   text-shadow: 2px 2px 0 #1760a0, -2px -2px 0 #1760a0, -2px 2px 0 #1760a0, 2px -2px 0 #1760a0, 0px 2px 0 #1760a0, -2px 0 #1760a0, -2px 0 0 #1760a0, 2px 0 0 #1760a0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .s-top__container {
     margin-top: 15vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .s-top__container h1 {
+    font-size: 10vw;
+  }
+  .s-top__container h2 {
+    font-size: 10vw;
   }
 }
 
@@ -221,7 +252,7 @@ Top-section
   width: 70%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .s-about__table {
     width: 100%;
   }
@@ -254,7 +285,7 @@ Top-section
   margin-right: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .s-about .sns__container .sns__item {
     right: 0;
     text-align: center;
@@ -276,6 +307,12 @@ Top-section
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .s-skill dl {
+    width: 90%;
+  }
+}
+
 .s-skill dt {
   color: #1760a0;
   margin-bottom: 15px;
@@ -290,6 +327,12 @@ Top-section
   line-height: 2.2;
   letter-spacing: 0.1em;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .s-skill dd {
+    line-height: 1.8;
+  }
 }
 
 .s-skill dd span {
@@ -311,8 +354,22 @@ Works
 }
 
 .s-works__item {
-  margin-top: 80px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .s-works__item {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .s-works__item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .s-works__item h3 {
@@ -326,6 +383,18 @@ Works
   background: linear-gradient(to bottom, rgba(128, 164, 145, 0.2) 0%, rgba(128, 164, 145, 0.2) 100%);
   padding: 20px;
   width: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+  .s-works__item h3 {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .s-works__item h3 {
+    width: 80vw;
+  }
 }
 
 .s-works__content {
@@ -346,6 +415,12 @@ Works
   letter-spacing: 0.1em;
 }
 
+@media screen and (max-width: 768px) {
+  .s-works__content li {
+    line-height: 1.8;
+  }
+}
+
 .s-works__content a {
   color: #333;
   font-size: 20px;
@@ -356,9 +431,20 @@ Works
   color: #80a491;
 }
 
+.s-works__appInfo {
+  margin-top: 20px;
+}
+
 /*--------------------------------
  Contact
 ---------------------------------*/
+@media screen and (max-width: 576px) {
+  .s-contact {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .s-contact__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -411,11 +497,24 @@ Works
   background: #1760a0;
 }
 
+@media screen and (max-width: 576px) {
+  .s-contact .form-group button {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
 .s-contact .col-form-label {
   color: #1760a0;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .s-contact .col-form-label {
+    text-align: left;
+  }
 }
 
 .s-contact__mail {

@@ -84,7 +84,7 @@ EOM;
 </head>
 <body class="p-confirm">
   <div class="p-confirm__container">
-    <div><h2>お問い合わせ内容のご確認</h2></div>
+    <div><h2>お問い合わせ内容<span>のご確認</span></h2></div>
     <p>お問い合わせ内容は下記の通りで宜しいでしょうか。<br>よろしければ「送信する」ボタンを押して下さい。</p>
     <div>
       <form action="confirm.php" method="post">
@@ -106,7 +106,7 @@ EOM;
         </tr>
         </table>
         <div class="button">
-          <input type="button" class="btn btn__back" value="内容を修正する" onclick="history.back(-1)">
+          <input type="button" class="btn btn__back" value="修正する" onclick="history.back(-1)">
           <button type="submit" class="btn btn__submit" name="submit">送信する</button>
         </div>
         </form>

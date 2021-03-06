@@ -12,10 +12,10 @@
 </head>
 <body class="p-thanks">
 	<div class="p-thanks__container">
-			<h2>お問い合わせ 送信完了</h2>
+			<h2>お問い合わせ <span>送信完了</span></h2>
 			<p>
-			お問い合わせありがとうございました。<br>
-			内容を確認のうえ、回答させて頂きます。<br>
+			お問い合わせ<span>ありがとうございました。</span><br>
+			内容を確認のうえ、<span>回答させて頂きます。</span><br>
 			しばらくお待ちください。
 			</p>
 			<a href="index.php">

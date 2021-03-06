@@ -1,5 +1,6 @@
 $breakpoint:(
-  m:'screen and(max-width:767px)',
+  m:'screen and(max-width:768px)',
+  s:'screen and(max-width:576px)',
 );
 
 @mixin mq ($bp) {
@@ -7,6 +8,7 @@ $breakpoint:(
     @content;
   }
 }
+
 
 /*--------------------------------
  共通項目
@@ -26,9 +28,26 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+body {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dbedf0 !important;
+  
+}
+
+main {
+  height: 100%;
+  width: 100vw;
+}
+
+span {
+  display: inline-block;
+}
+
 section {
+  width: 100vw;
   padding: 40px 40px;
-  background-color: #dbedf0;
   .section__title {
     text-align: center;
     font-family: "Open sans", sans-serif;
@@ -51,9 +70,11 @@ section {
   .icon {
     margin-right: 15px;
     font-size: 1.2em;
-
   }
 
+  @include mq("s"){
+    padding: 10px 10px;
+  }
 }
 
 /*--------------------------------
@@ -82,7 +103,6 @@ header {
       background-color: #80a491;
       padding: 0 !important;
    
-      
       .navbar-toggler {
         margin-left: 25px;
         border:solid 3px !important;
@@ -140,12 +160,10 @@ header {
     }
 }
 
-
 /*--------------------------------
 Top-section
 ---------------------------------*/
 .s-top {
-  // background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),url(../img/top-img.png);
   background-image: url(../img/top.png);
   background-repeat: no-repeat;
   background-position:center center ;
@@ -159,7 +177,6 @@ Top-section
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    // background:linear-gradient(to bottom, rgba(219, 238, 240, 0.5) 0%, rgba(219, 238, 240, 0.5) 100%);
     color: #dbedf0;
     h1 {
       font-size: 60px;
@@ -182,6 +199,15 @@ Top-section
 
     @include mq("m"){
       margin-top: 15vh;
+    }
+
+    @include mq("s"){
+      h1 {
+        font-size:10vw;
+      }
+      h2 {
+        font-size: 10vw;
+      }
     }
   }
 
@@ -273,6 +299,9 @@ Top-section
   dl {
     width: 80%;
     margin: 0 auto;
+    @include mq("m"){
+      width: 90%;
+    }
   }
  
   dt {
@@ -290,6 +319,9 @@ Top-section
     line-height: 2.2;
     letter-spacing: 0.1em;
     margin-bottom: 30px;
+    @include mq("m"){
+      line-height: 1.8;
+    }
     span {
       color:#1760a0;
       font-weight: bold;
@@ -314,8 +346,16 @@ Works
   }
   
   &__item {
-    margin-top: 80px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    @include mq("m"){
+      margin-top: 40px;
+      margin-bottom: 40px;
+      }
+    @include mq("s"){
+      margin-top: 30px;
+      margin-bottom: 30px;
+      }
     & h3 {
       font-weight: 600;
       text-align: center;
@@ -326,7 +366,14 @@ Works
       background: linear-gradient(to bottom, rgba(128, 164, 145, 0.2) 0%, rgba(128, 164, 145, 0.2) 100%);
       padding:20px;
       width: 40vw;
-    }
+  
+      @include mq("m"){
+        width: 60vw;
+      }
+      @include mq("s"){
+        width: 80vw;
+      }
+  }
   }
   
   &__content {
@@ -342,6 +389,9 @@ Works
           font-size: 20px;
           line-height: 2.2;
           letter-spacing: 0.1em;
+          @include mq("m"){
+            line-height: 1.8;
+          }
         }
         & a {
           color:#333;
@@ -351,8 +401,10 @@ Works
             color:#80a491;
           }
         }
+      }  
       
-
+  &__appInfo {
+    margin-top: 20px;
   }
 }
 
@@ -360,6 +412,10 @@ Works
  Contact
 ---------------------------------*/
 .s-contact {
+  @include mq("s"){
+    padding-left: 20px;
+    padding-right: 20px;
+    }
 
   &__list {
     display: flex;
@@ -404,6 +460,10 @@ Works
     &:hover {
       background: #1760a0;
     }
+    @include mq("s"){
+      margin: 0 auto;
+      width: 80%;
+      }
   }
 
   .col-form-label {
@@ -411,6 +471,12 @@ Works
     font-weight: 600;
     font-size: 20px;
     text-align: center;
+
+    @include mq("s"){
+    text-align: left;
+    }
+
+
   }
 
   &__mail {

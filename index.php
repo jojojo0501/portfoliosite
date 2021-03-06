@@ -71,7 +71,7 @@
                         2016年3月　埼玉県立熊谷高校 卒業<br>
                         2016年4月　宇都宮大学農学部 入学<br>
                         2020年3月　宇都宮大学農学部 卒業<br>
-                        2020年4月　大手建設コンサルタント 入社<br>
+                        2020年4月　大手建設コンサルタント（農業土木分野） 入社<br>
                       </td>
                     </tr>
                     <tr>
@@ -103,17 +103,17 @@
             <h2 class="section__title">SKILL</h2>
             <h3>私のプログラミングの学習記録を時系列に沿って紹介します。</h3>
               <dl>
-                <dt>2020年8月〜：プログラミングとの出会い</dt>
+                <dt>2020年8月〜：<span>プログラミングとの出会い</span></dt>
                 <dd>現職の業務で、ある地区の降雨データが含まれたプログラム<span>（フォートラン）</span>を改造する業務を担いました。実際の作業は、定数で書かれている降雨データ（20年以上前のもの）を最新のものに書き換えるだけのものでした。当時、「htmlって何？」というような状態だったため、勉強しながら業務を進めていましたが、この業務をきっかけにプログラミングっておもしろそうだなと興味を持ちました。</dd>
-                <dt>2020年9月〜：html、css</dt>
+                <dt>2020年9月〜：<span>html、css</span></dt>
                 <dd>業務で少しプログラミングに触れたことをきっかけにウェブサイトを作ってみたいと思い、趣味として<span>html、css</span>の学習を始めました。</dd>
-                <dt>2020年10月〜：ITパスポートの取得</dt>
+                <dt>2020年10月〜：<span>ITパスポートの取得</span></dt>
                 <dd>IT関連の最低限の基礎知識を身につけるため<span>ITパスポート</span>の学習をし無事、試験を通過しました。取得すると現職の会社から奨励金がもらえることも、試験学習のやる気に繋がりました。</dd>
-                <dt>2020年11月〜12月：PHP、MySQL</dt>
-                <dd>サーバーサイドの言語を学習するため、<span>PHP(laravel)</span>を学習しました。また、データベースを扱うため、<span>MySQL</span>を学習しました。これらとあわせて、ターミナル上での基礎的なコマンド操作、ソースコード管理のための<span>Git,GitHub</span>について学習を始めました。この頃から転職を意識して勉強に取り組み始めました。</dd>
-                <dt>2021年1月〜２月：javascript</dt>
-                <dd>ウェブサイトに動きをつけるため、<span>javascript（jQuery）</span>を学習しました。その後、フレームワークである、<span>React</span>に少し触れました。</dd>
-                <dt>2021年2月〜現在：ポートフォリオ作成、とりまとめ</dt>
+                <dt>2020年11月〜12月：<span>PHP(laravel)、MySQL</span></dt>
+                <dd>サーバーサイドの言語を学習するため、<span>PHP(laravel)</span>を学習しました。また、データベースを扱うため、<span>MySQL</span>を学習しました。これらとあわせて、ターミナル上での基礎的なコマンド操作、ソースコード管理のための<span>Git,GitHub</span>について学習を始めました。この頃から自分が書いたプログラムが動くことに対する喜びから、転職を意識して勉強に取り組み始めました。</dd>
+                <dt>2021年1月〜２月：<span>javascript</span></dt>
+                <dd>ウェブサイトに動きをつけるため、<span>javascript（jQuery）</span>を学習しました。その後、フレームワークである、<span>React</span>に触れました。</dd>
+                <dt>2021年2月〜現在：<span>ポートフォリオ作成、とりまとめ</span></dt>
                 <dd>今までの学習で使用したアウトプットをポートフォリオとして取りまとめを行いました。</dd>
               </dl>
           </section>
@@ -123,14 +123,14 @@
                 <h2 class="section__title">WORKS</h2>
                 <div class="s-works__container">
                   <div class="s-works__item" >
-                    <h3>Cafe Introductions</h3>
+                    <h3>Cafe <span>Introductions</span></h3>
                     <div class="row">
-                      <div class="s-works__link col-md-6"> 
+                      <div class="s-works__link col-lg-6"> 
                         <div class="s-works__img">  
                           <a href="https://cafe-introductions.herokuapp.com/" target="_blank"> <small>画像をクリックすると製作物のページへ飛びます。</small><img src="./img/works/works_img1.png" alt=""></a>
                         </div>
                       </div>
-                      <div class="s-works__appInfo col-md-6">
+                      <div class="s-works__appInfo col-lg-6">
                         <div class="s-works__content s-works-overview">
                           <h4><i class="icon far fa-flag"></i>アプリの概要</h4>
                           <ul>
@@ -161,14 +161,14 @@
                     </div>
                   </div>
                   <div class="s-works__item" >
-                    <h3>架空ホテルのHP（共同開発)</h3>
+                    <h3>架空ホテルのHP<span>（共同開発）</span></h3>
                     <div class="row">
-                      <div class="s-works__link col-md-6"> 
+                      <div class="s-works__link col-lg-6"> 
                         <div class="s-works__img">  
                           <a href="https://tenkuehotel-r018.netlify.app/"  target="_blank"> <small>画像をクリックすると製作物のページへ飛びます。</small><img src="./img/works/works_img3.png" alt=""></a>
                         </div>
                       </div>
-                      <div class="s-works__appInfo col-md-6">
+                      <div class="s-works__appInfo col-lg-6">
                         <div class="s-works__content s-works-overview">
                           <h4><i class="icon far fa-flag"></i>アプリの概要</h4>
                           <ul>
@@ -196,14 +196,14 @@
                     </div>
                   </div>
                   <div class="s-works__item" >
-                    <h3>ポートフォリオサイト（本サイト）</h3>
+                    <h3>ポートフォリオサイト<span>（本サイト）</span></h3>
                     <div class="row">
-                      <div class="s-works__link col-md-6"> 
+                      <div class="s-works__link col-lg-6"> 
                         <div class="s-works__img">  
                           <a href="#"  target="_blank"> <small>画像をクリックすると製作物のページへ飛びます。</small><img src="./img/works/works_img2.png" alt=""></a>
                         </div>
                       </div>
-                      <div class="s-works__appInfo col-md-6">
+                      <div class="s-works__appInfo col-lg-6">
                         <div class="s-works__content s-works-overview">
                           <h4><i class="icon far fa-flag"></i>アプリの概要</h4>
                           <ul>
