@@ -246,6 +246,8 @@ Top-section
 }
 
 .s-about__table {
+  font-size: 20px;
+  color: #333;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -256,6 +258,10 @@ Top-section
   .s-about__table {
     width: 100%;
   }
+}
+
+.s-about__table th {
+  color: #1760a0;
 }
 
 .s-about .sns__container {
@@ -345,6 +351,18 @@ Works
 ---------------------------------*/
 .s-works__container ul {
   padding-left: 25px;
+}
+
+.s-works__mv {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.s-works__mv video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 .s-works__img {
@@ -711,5 +729,10 @@ footer .copyright {
 .p-thanks__container .btn__back:hover {
   background: green;
   color: #FFF;
+}
+
+.p-thanks .alert {
+  color: red;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

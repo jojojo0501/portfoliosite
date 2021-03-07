@@ -18,6 +18,10 @@
 			内容を確認のうえ、<span>回答させて頂きます。</span><br>
 			しばらくお待ちください。
 			</p>
+			<p>
+			お問い合わせ確認メールを送付させていただきましたので、ご確認ください。<br>
+			<span class="alert">ご使用の環境により、迷惑メールフォルダに入る可能性がございます。<span>
+			</p>
 			<a href="index.php">
 				<button type="button" class="btn btn__back">戻る</button>
 			</a>

@@ -249,12 +249,18 @@ Top-section
   }
   
   &__table {
+    font-size: 20px;
+    color:#333;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     @include mq("m"){
       width: 100%;
+    }
+
+    & th {
+      color:#1760a0;
     }
   }
 
@@ -339,6 +345,17 @@ Works
       padding-left: 25px;
     }
   }
+  &__mv {
+    width: 80%;
+    height: auto;
+    margin:0 auto;
+    & video {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+  }
+
   &__img {
     width: 80%;
     height: auto;
@@ -662,5 +679,10 @@ footer {
         color:#FFF;
       }
     }
+  }
+
+  .alert {
+    color:red;
+    font-weight: 600;
   }
 }

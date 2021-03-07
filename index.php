@@ -104,17 +104,17 @@
             <h3>私のプログラミングの学習記録を時系列に沿って紹介します。</h3>
               <dl>
                 <dt>2020年8月〜：<span>プログラミングとの出会い</span></dt>
-                <dd>現職の業務で、ある地区の降雨データが含まれたプログラム<span>（フォートラン）</span>を改造する業務を担いました。実際の作業は、定数で書かれている降雨データ（20年以上前のもの）を最新のものに書き換えるだけのものでした。当時、「htmlって何？」というような状態だったため、勉強しながら業務を進めていましたが、この業務をきっかけにプログラミングっておもしろそうだなと興味を持ちました。</dd>
+                <dd>現職の業務で、ある地区の水収支計算(田や畑の面積、降水量、気温などからその地区で農業をするために必要な水の量を算定すること)を行うプログラム<span>（FORTRANで書かれている）</span>を改造する業務を担いました。実際の作業は、定数で書かれている降雨データ（20年以上前のもの）を最新のものに書き換えたり、if文の条件を変更するものでした。当時、「htmlって何？」というような状態だったため、勉強しながら業務を進めていましたが、この業務をきっかけにプログラミングっておもしろそうだなと興味を持ちました。</dd>
                 <dt>2020年9月〜：<span>html、css</span></dt>
-                <dd>業務で少しプログラミングに触れたことをきっかけにウェブサイトを作ってみたいと思い、趣味として<span>html、css</span>の学習を始めました。</dd>
+                <dd>業務で少しプログラミングに触れたことをきっかけにウェブアプリを作ってみたいと思い、趣味として<span>html、css</span>の学習を始めました。あくまで趣味での学習であり、転職活動するなんて考えてもいませんでした。</dd>
                 <dt>2020年10月〜：<span>ITパスポートの取得</span></dt>
-                <dd>IT関連の最低限の基礎知識を身につけるため<span>ITパスポート</span>の学習をし無事、試験を通過しました。取得すると現職の会社から奨励金がもらえることも、試験学習のやる気に繋がりました。</dd>
+                <dd>現職の会社の方針として、IT関連知識の強化があります。IT関連の最低限の基礎知識を身につけるため<span>ITパスポート</span>の学習をし無事、試験を通過しました。取得すると現職の会社から奨励金がもらえることも、試験学習のやる気に繋がりました。</dd>
                 <dt>2020年11月〜12月：<span>PHP(laravel)、MySQL</span></dt>
                 <dd>サーバーサイドの言語を学習するため、<span>PHP(laravel)</span>を学習しました。また、データベースを扱うため、<span>MySQL</span>を学習しました。これらとあわせて、ターミナル上での基礎的なコマンド操作、ソースコード管理のための<span>Git,GitHub</span>について学習を始めました。この頃から自分が書いたプログラムが動くことに対する喜びから、転職を意識して勉強に取り組み始めました。</dd>
                 <dt>2021年1月〜２月：<span>javascript</span></dt>
-                <dd>ウェブサイトに動きをつけるため、<span>javascript（jQuery）</span>を学習しました。その後、フレームワークである、<span>React</span>に触れました。</dd>
+                <dd>ウェブサイトに動きをつけるため、<span>javascript（jQuery）</span>を学習しました。その後、フレームワークである、<span>React</span>にも触れました。</dd>
                 <dt>2021年2月〜現在：<span>ポートフォリオ作成、とりまとめ</span></dt>
-                <dd>今までの学習で使用したアウトプットをポートフォリオとして取りまとめを行いました。</dd>
+                <dd>今までの学習で使用したアウトプット成果をポートフォリオとして取りまとめました。</dd>
               </dl>
           </section>
           <!-- /.skill-section -->
@@ -144,7 +144,27 @@
                               イイね機能、フォロー機能、コメント機能、投稿削除機能を搭載
                             </li>
                           </ul>
-                          </div>
+                        </div>
+                        <div class="s-works__content s-works-purpose">
+                          <h4><i class="icon far fa-calendar-check"></i>作成した意図、目的</h4>
+                          <ul>
+                            <li>
+                              開発を通してウェブアプリの基本的な機能の作成方法を知る
+                            </li>
+                            <li>
+                              PHP(laravel)のアウトプット
+                            </li>
+                            <li>
+                              データベース、SQLコマンドの学習
+                            </li>
+                            <li>
+                              bootstrapの学習
+                            </li>
+                            <li>
+                              AWS(cloud9)の使用方法の学習
+                            </li>
+                          </ul>
+                        </div>
                         <div class="s-works__content s-works__appPoints">
                           <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                           <ul>
@@ -175,7 +195,21 @@
                             <li>５つのページから構成される、架空ホテルのホームページ。</li>
                             <li>PM＋３人チームで共同開発で製作</li>
                           </ul>
-                          </div>
+                        </div>
+                        <div class="s-works__content s-works-purpose">
+                          <h4><i class="icon far fa-calendar-check"></i>作成した意図、目的</h4>
+                          <ul>
+                            <li>
+                              チーム開発の経験
+                            </li>
+                            <li>
+                              git関連のコマンドのアウトプット
+                            </li>
+                            <li>
+                              javascript(jQuery)、Sassの学習
+                            </li>
+                          </ul>
+                        </div>
                         <div class="s-works__content s-works__appPoints">
                           <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                           <ul>
@@ -208,20 +242,77 @@
                           <h4><i class="icon far fa-flag"></i>アプリの概要</h4>
                           <ul>
                             <li>自己紹介や学習記録、いままで手がけた作品をまとめるために作成</li>
+                            <li>お問い合わせフォームやSNSを通じた連絡窓口</li>
                           </ul>
-                          </div>
+                        </div>
+                        <div class="s-works__content s-works-purpose">
+                          <h4><i class="icon far fa-calendar-check"></i>作成した意図、目的</h4>
+                          <ul>
+                            <li>
+                              作成したアウトプットの集約、とりまとめ
+                            </li>
+                            <li>
+                              javascript(jQuery)の学習
+                            </li>
+                            <li>
+                              PHPの学習（laravelをより理解するためには、その基となるPHPの深い理解が大切であると考えている。）
+                            </li>
+                          </ul>
+                        </div>
                         <div class="s-works__content s-works__appPoints">
                           <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                           <ul>
-                            <li>プログラミングの学習過程を時系列に沿って記載</li>
                             <li>お問い合わせフォームの実装（PHP）</li>
+                            <li>お問い合わせフォームにバリデーションやサニタイジングの実装</li>
+                            <li>プログラミングの学習過程を時系列に沿って記載</li>
                             <li>トップへ戻るボタンの実装(jQuery)</li>
-
                           </ul>
                         </div>
                         <div class="s-works__content s-works__appCode">
                           <h4><i class="icon fas fa-code"></i>ソースコード</h4>
                           <p><a href="https://github.com/jojojo0501/portfoliosite" target="_blank">ソースコードはこちら(Github)</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="s-works__item" >
+                    <h3>Sweet Typing<span>（タイピングゲーム）</span></h3>
+                    <div class="row">
+                      <div class="s-works__link col-lg-6"> 
+                        <div class="s-works__mv">  
+                         <video src="./img/works/works_mv4.mp4" preload=“auto” controls autoPictureInPicture></video>
+                         </div>
+                        <div class="s-works__img">  
+                          <a href="http://jota-portfolio.sakura.ne.jp/TypingGame/index.html"  target="_blank"> <small>画像をクリックすると製作物のページへ飛びます。</small><img src="./img/works/works_img4.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="s-works__appInfo col-lg-6">
+                        <div class="s-works__content s-works-overview">
+                          <h4><i class="icon far fa-flag"></i>アプリの概要</h4>
+                          <ul>
+                            <li>正確かつ、早いブラインドタッチの習得を目指す人のためのタイピングゲーム</li>
+                            <li>出題される問題は全て甘い食べ物</li>
+                            <li>遊んだあとは正解数、ミスタイプ数、所要時間が表示される。</li>
+                          </ul>
+                        </div>
+                        <div class="s-works__content s-works-purpose">
+                          <h4><i class="icon far fa-calendar-check"></i>作成した意図、目的</h4>
+                          <ul>
+                            <li>
+                              javascript(jQuery)の学習、アウトプット
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="s-works__content s-works__appPoints">
+                          <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
+                          <ul>
+                            <li>javascript(jQuery)で書いたタイピングゲーム</li>
+                            <li>正解数、ミスタイプ数、所要時間を表示させるための実装</li>
+                          </ul>
+                        </div>
+                        <div class="s-works__content s-works__appCode">
+                          <h4><i class="icon fas fa-code"></i>ソースコード</h4>
+                          <p><a href="https://github.com/jojojo0501/TypingGame" target="_blank">ソースコードはこちら(Github)</a></p>
                         </div>
                       </div>
                     </div>
