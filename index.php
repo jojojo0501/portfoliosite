@@ -26,6 +26,7 @@
             <li class="gnav-item nav-item"><a class="gnav-link nav-link" href="#skill-section">SKILL</a></li>
             <li class="gnav-item nav-item"><a class="gnav-link nav-link" href="#works-section">WORKS</a></li>
             <li class="gnav-item nav-item"><a class="gnav-link nav-link" href="#contact-section">CONTACT</a></li>
+            <li class="gnav-item nav-item"><a class="gnav-link nav-link" href="#others-section">OTHERS</a></li>
           </ul>
         </div>
         </nav>
@@ -49,10 +50,10 @@
                 <img class="s-about__image" src="img/about/profile.png" alt="">
               </div>
               <ul class="sns__container col-md-4">
-                <li class="sns__item"><a class="sns__twitter" href="https://twitter.com/sa04ru18kiti" target="_blank"><i class="fab fa-twitter"></i>twitter</a></li>
-                <li class="sns__item"><a class="sns__github" href="https://github.com/jojojo0501" target="_blank"><i class="fab fa-github"></i>github</a></li>
-                <li class="sns__item"><a class="sns__github" href="https://qiita.com/jojojo0501" target="_blank"><i class="fab fa-quora"></i>Qiita</a></li>
-                <li class="sns__item"><a class="sns__github" href="mailto:sarukiti0418@outlook.jp" target="_blank"><i class="far fa-envelope"></i>Email</a></li>
+                <li class="sns__item"><a class="sns__twitter" href="https://twitter.com/sa04ru18kiti" target="_blank"><i class="icon fab fa-twitter"></i>twitter</a></li>
+                <li class="sns__item"><a class="sns__github" href="https://github.com/jojojo0501" target="_blank"><i class="icon fab fa-github"></i>github</a></li>
+                <li class="sns__item"><a class="sns__github" href="https://qiita.com/jojojo0501" target="_blank"><i class="icon fab fa-quora"></i>Qiita</a></li>
+                <li class="sns__item"><a class="sns__github" href="mailto:sarukiti0418@outlook.jp" target="_blank"><i class="icon far fa-envelope"></i>Email</a></li>
               </ul>
             </div>            
                 <div class="s-about__table">
@@ -129,6 +130,10 @@
                         <div class="s-works__img">  
                           <a href="https://cafe-introductions.herokuapp.com/" target="_blank"> <small>画像をクリックすると製作物のページへ飛びます。</small><img src="./img/works/works_img1.png" alt=""></a>
                         </div>
+                        <div class="s-works__mv mt-5">  
+                        <small>サイトマップ、データベース図</small>
+                         <video src="./img/works/works_mv1.mp4" preload=“auto” controls autoPictureInPicture></video>
+                        </div>
                       </div>
                       <div class="s-works__appInfo col-lg-6">
                         <div class="s-works__content s-works-overview">
@@ -176,6 +181,12 @@
                         <div class="s-works__content s-works__appCode">
                           <h4><i class="icon fas fa-code"></i>ソースコード</h4>
                           <p><a href="https://github.com/jojojo0501/CafeIntroductions" target="_blank">ソースコードはこちら(Github)</a></p>
+                        </div>
+                        <div class="s-works__content s-works__References">
+                          <h4><i class="icon fas fa-pencil-alt"></i>参考資料(サイトマップ、データベース図の作成)</h4>
+                          <ul>
+                            <li>アプリ作成前の段階でウェブアプリの全体像を整理するために<br>作成した。（左動画参照）</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -262,7 +273,7 @@
                         <div class="s-works__content s-works__appPoints">
                           <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                           <ul>
-                            <li>お問い合わせフォームの実装（PHP）</li>
+                            <li>お問い合わせフォームの実装（PHP）<br>(テストで送信頂いて問題ございません。)</li>
                             <li>お問い合わせフォームにバリデーションやサニタイジングの実装</li>
                             <li>プログラミングの学習過程を時系列に沿って記載</li>
                             <li>トップへ戻るボタンの実装(jQuery)</li>
@@ -280,6 +291,7 @@
                     <div class="row">
                       <div class="s-works__link col-lg-6"> 
                         <div class="s-works__mv">  
+                        <small>アプリ使用時の動画</small>
                          <video src="./img/works/works_mv4.mp4" preload=“auto” controls autoPictureInPicture></video>
                          </div>
                         <div class="s-works__img">  
@@ -317,11 +329,75 @@
                       </div>
                     </div>
                   </div>
+                  <div class="s-works__item" >
+                    <h3>TaskList</h3>
+                    <div class="row">
+                      <div class="s-works__link col-lg-6"> 
+                        <div class="s-works__mv">  
+                        <small>アプリ使用時の動画</small>
+                         <video src="./img/works/works_mv5.mp4" preload=“auto” controls autoPictureInPicture></video>
+                        </div>
+                      </div>
+                      <div class="s-works__appInfo col-lg-6">
+                        <div class="s-works__content s-works-overview">
+                          <h4><i class="icon far fa-flag"></i>アプリの概要</h4>
+                          <ul>
+                            <li>タスク（タイトル、内容）操作ログを表示させるToDoアプリ</li>
+                          </ul>
+                        </div>
+                        <div class="s-works__content s-works-purpose">
+                          <h4><i class="icon far fa-calendar-check"></i>作成した意図、目的</h4>
+                          <ul>
+                            <li>
+                              フロントエンドで主流のフレームワーク(React)に触れてみること。
+                            </li>
+                            <li>
+                              React Hooksの学習
+                            </li>
+                            <li>
+                              Reduxの学習
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="s-works__content s-works__appPoints">
+                          <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
+                          <ul>
+                            <li>初めてReactを使用して作成したアウトプット（今後も改良予定）</li>
+                            <li>React Hooks(useEffect,useReducer,useContext,useState)を使用</li>
+                          </ul>
+                        </div>
+                        <div class="s-works__content s-works__appCode">
+                          <h4><i class="icon fas fa-code"></i>ソースコード</h4>
+                          <p><a href="https://github.com/jojojo0501/tasklist" target="_blank">ソースコードはこちら(Github)</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                     
                 </div>
           </section>
           <!-- /.works-section -->
-
+          <section class="s-others section" id="others-section">
+            <h2 class="section__title">OTHERS</h2>   
+             <div class="s-others__container">
+             <div class="s-others__item">
+                <div class="s-others__title"><h3><i class="icon fas fa-book-open"></i>日々の学習について</h3></div>
+                <ul>
+                  <li><a href="https://twitter.com/sa04ru18kiti" target="_blank">毎日witterへの投稿(2020/12/21〜)</a></li>
+                  <li><a href="https://qiita.com/jojojo0501" target="_blank">Qiita記事の執筆によるアウトプット</a></li>
+                  <li>手帳を使った月単位、週単位のタスク管理をし、Googleカレンダーで日単位に落とし込み計画化<img src="./img/others/googlecalender.png" alt=""></li>
+                </ul>
+             </div>
+             <div class="s-others__item">
+                <div class="s-others__title"><h3><i class="icon fas fa-school"></i>学生時代について</h3></div>
+                <p>学生時代に取り組んだことや、就職活動時に受けた質問に対する回答についてまとめました。
+                私の性格や人物像が現れているかと思います。<br>ここまでで、興味を持って頂けましたら下記リンクよりご確認いただけますと幸甚です。</p>
+                <div class="s-others__school">
+                  <a href="school.html" target="__blank"><button class="btn btn-block">学生時代について</button></a>
+                </div>
+             </div>
+             </div>
+      </section>
       <!-- .contact-section -->
       <section class="s-contact" id="contact-section">
             <h2 class="section__title">CONTACT</h2>

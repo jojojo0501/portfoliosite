@@ -397,8 +397,8 @@ Works
   margin-left: auto;
   margin-right: auto;
   color: #1760a0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 164, 145, 0.2)), to(rgba(128, 164, 145, 0.2)));
-  background: linear-gradient(to bottom, rgba(128, 164, 145, 0.2) 0%, rgba(128, 164, 145, 0.2) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 39, 38, 0.2)), to(rgba(128, 164, 145, 0.2)));
+  background: linear-gradient(to bottom, rgba(36, 39, 38, 0.2) 0%, rgba(128, 164, 145, 0.2) 100%);
   padding: 20px;
   width: 40vw;
 }
@@ -451,6 +451,69 @@ Works
 
 .s-works__appInfo {
   margin-top: 20px;
+}
+
+/*--------------------------------
+ Others
+---------------------------------*/
+.s-others .__container {
+  margin: 0 auto;
+}
+
+.s-others__item {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.s-others__title h3 {
+  font-size: 28px;
+  color: #1760a0;
+  margin: 30px auto;
+  font-weight: 800;
+}
+
+.s-others li {
+  font-size: 24px;
+  line-height: 2.2;
+  letter-spacing: 0.1em;
+}
+
+.s-others li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.s-others li a:hover {
+  color: #80a491;
+}
+
+.s-others li a img {
+  display: block;
+}
+
+.s-others p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.s-others__school {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.s-others__school button {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #FFF;
+  background: #1ca9e3;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.s-others__school button:hover {
+  background: #1760a0;
+  color: #FFF;
 }
 
 /*--------------------------------

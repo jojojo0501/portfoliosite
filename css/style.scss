@@ -339,7 +339,6 @@ Top-section
 Works
 ---------------------------------*/
 .s-works {
-  
   &__container {
     & ul {
       padding-left: 25px;
@@ -380,7 +379,7 @@ Works
       margin-left: auto;
       margin-right: auto;
       color:#1760a0;
-      background: linear-gradient(to bottom, rgba(128, 164, 145, 0.2) 0%, rgba(128, 164, 145, 0.2) 100%);
+      background: linear-gradient(to bottom, rgba(36, 39, 38, 0.2) 0%, rgba(128, 164, 145, 0.2) 100%);
       padding:20px;
       width: 40vw;
   
@@ -422,6 +421,69 @@ Works
       
   &__appInfo {
     margin-top: 20px;
+  }
+}
+/*--------------------------------
+ Others
+---------------------------------*/
+.s-others {
+
+  .__container {
+    margin: 0 auto;
+  }
+
+  &__item {
+    
+    width: 60%;
+    margin: 30px auto;
+  }
+
+  &__title {
+    & h3 {
+      font-size: 28px;
+      color:#1760a0;
+      margin: 30px auto;
+      font-weight: 800;
+    }
+  }
+
+  & li {
+    font-size: 24px;
+    line-height: 2.2;
+    letter-spacing: 0.1em;
+    & a {
+      text-decoration: none;
+      color:inherit;
+      &:hover {
+        color:#80a491;
+      }
+    & img {
+      display: block;
+    }
+    }
+  }
+
+  & p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  &__school {
+    width: 60%;
+    margin: 40px auto;
+    & button {
+      display: block;
+      text-align: center;
+      width: 100%;
+      color: #FFF;
+      background: #1ca9e3;
+      font-size: 20px;
+      font-weight: 600;
+      &:hover {
+        background: #1760a0;
+        color: #FFF;
+      }
+    }
   }
 }
 
@@ -492,8 +554,6 @@ Works
     @include mq("s"){
     text-align: left;
     }
-
-
   }
 
   &__mail {
