@@ -427,15 +427,16 @@ Works
  Others
 ---------------------------------*/
 .s-others {
-
   .__container {
     margin: 0 auto;
   }
 
   &__item {
-    
     width: 60%;
     margin: 30px auto;
+    @include mq("m"){
+      width: 90%;
+    }
   }
 
   &__title {
@@ -446,10 +447,9 @@ Works
       font-weight: 800;
     }
   }
-
   & li {
-    font-size: 24px;
-    line-height: 2.2;
+    font-size: 22px;
+    line-height: 1.8;
     letter-spacing: 0.1em;
     & a {
       text-decoration: none;
@@ -744,5 +744,54 @@ footer {
   .alert {
     color:red;
     font-weight: 600;
+  }
+}
+
+  /*--------------------------------
+ shoolページ
+---------------------------------*/
+.p-school {
+  background-color: #dbedf0;
+  &__container {
+    width: 90%;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+      text-align: center;
+      font-family: "Open sans", sans-serif;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1;
+      letter-spacing: .05em;
+      color:#80a491;
+      margin-bottom: 5vh;
+    }
+    & dl {
+      margin-bottom: 10vh;
+    }
+    & dt {
+      background: #1760a0;
+      color: #fff;
+      padding: 8px;
+      border-radius: 2px;
+    
+    }
+    & dt:before {
+      content: "Q.";
+      font-weight: bold;
+      margin-right: 8px;
+    }
+    & dd {
+      font-size: 20px;
+      margin: 24px 16px 40px 32px;
+      line-height: 140%;
+      text-indent: -24px;
+    }
+    & dd:before {
+      content: "A.";
+      font-weight: bold;
+      margin-right: 8px;
+    }
   }
 }

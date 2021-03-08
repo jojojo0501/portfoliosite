@@ -116,6 +116,8 @@
                 <dd>ウェブサイトに動きをつけるため、<span>javascript（jQuery）</span>を学習しました。その後、フレームワークである、<span>React</span>にも触れました。</dd>
                 <dt>2021年2月〜現在：<span>ポートフォリオ作成、とりまとめ</span></dt>
                 <dd>今までの学習で使用したアウトプット成果をポートフォリオとして取りまとめました。</dd>
+                <dt>2021年3月〜現在：<span>PHP、laravelの復習、AWSの学習</span></dt>
+                <dd>バックエンドエンジニアを目指すことを固め、PHP、laravel、AWSについて復習、学習中です。</dd>
               </dl>
           </section>
           <!-- /.skill-section -->
@@ -391,7 +393,7 @@
              <div class="s-others__item">
                 <div class="s-others__title"><h3><i class="icon fas fa-school"></i>学生時代について</h3></div>
                 <p>学生時代に取り組んだことや、就職活動時に受けた質問に対する回答についてまとめました。
-                私の性格や人物像が現れているかと思います。<br>ここまでで、興味を持って頂けましたら下記リンクよりご確認いただけますと幸甚です。</p>
+                特別突出したことを行っていたわけではありませんが、私の性格や人物像が現れているかと思います。<br>ここまでで、興味を持って頂けましたら下記リンクよりご確認いただけますと幸甚です。</p>
                 <div class="s-others__school">
                   <a href="school.html" target="__blank"><button class="btn btn-block">学生時代について</button></a>
                 </div>

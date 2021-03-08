@@ -465,6 +465,12 @@ Works
   margin: 30px auto;
 }
 
+@media screen and (max-width: 768px) {
+  .s-others__item {
+    width: 90%;
+  }
+}
+
 .s-others__title h3 {
   font-size: 28px;
   color: #1760a0;
@@ -473,8 +479,8 @@ Works
 }
 
 .s-others li {
-  font-size: 24px;
-  line-height: 2.2;
+  font-size: 22px;
+  line-height: 1.8;
   letter-spacing: 0.1em;
 }
 
@@ -797,5 +803,60 @@ footer .copyright {
 .p-thanks .alert {
   color: red;
   font-weight: 600;
+}
+
+/*--------------------------------
+ shoolページ
+---------------------------------*/
+.p-school {
+  background-color: #dbedf0;
+}
+
+.p-school__container {
+  width: 90%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-school__container h2 {
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: .05em;
+  color: #80a491;
+  margin-bottom: 5vh;
+}
+
+.p-school__container dl {
+  margin-bottom: 10vh;
+}
+
+.p-school__container dt {
+  background: #1760a0;
+  color: #fff;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.p-school__container dt:before {
+  content: "Q.";
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.p-school__container dd {
+  font-size: 20px;
+  margin: 24px 16px 40px 32px;
+  line-height: 140%;
+  text-indent: -24px;
+}
+
+.p-school__container dd:before {
+  content: "A.";
+  font-weight: bold;
+  margin-right: 8px;
 }
 /*# sourceMappingURL=style.css.map */
