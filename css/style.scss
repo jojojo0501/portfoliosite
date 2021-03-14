@@ -9,7 +9,6 @@ $breakpoint:(
   }
 }
 
-
 /*--------------------------------
  共通項目
 ---------------------------------*/
@@ -251,10 +250,12 @@ Top-section
   &__table {
     font-size: 20px;
     color:#333;
+    line-height: 1.8;
+
     margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    margin-left: 5% ;
+    margin-right: 10% ;
+    width: 80%;
     @include mq("m"){
       width: 100%;
     }
@@ -484,6 +485,7 @@ Works
         color: #FFF;
       }
     }
+   
   }
 }
 
@@ -775,23 +777,36 @@ footer {
       color: #fff;
       padding: 8px;
       border-radius: 2px;
-    
-    }
-    & dt:before {
-      content: "Q.";
-      font-weight: bold;
-      margin-right: 8px;
+      &:before {
+        content: "Q.";
+        font-weight: bold;
+        margin-right: 8px;
+      }
     }
     & dd {
       font-size: 20px;
       margin: 24px 16px 40px 32px;
       line-height: 140%;
       text-indent: -24px;
+      &:before {
+        content: "A.";
+        font-weight: bold;
+        margin-right: 8px;
+      }
     }
-    & dd:before {
-      content: "A.";
-      font-weight: bold;
-      margin-right: 8px;
+
+    & .btn__back {
+      display: block;
+      margin: 30px auto;
+      width: 40%;
+      color: #FFF;
+      background: #00BB00;
+      font-size: 20px;
+      font-weight: 600;
+      &:hover {
+        background: green;
+        color:#FFF;
+      }
     }
   }
 }

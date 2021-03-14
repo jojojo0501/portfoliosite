@@ -248,10 +248,11 @@ Top-section
 .s-about__table {
   font-size: 20px;
   color: #333;
+  line-height: 1.8;
   margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 80%;
 }
 
 @media screen and (max-width: 768px) {
@@ -858,5 +859,20 @@ footer .copyright {
   content: "A.";
   font-weight: bold;
   margin-right: 8px;
+}
+
+.p-school__container .btn__back {
+  display: block;
+  margin: 30px auto;
+  width: 40%;
+  color: #FFF;
+  background: #00BB00;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p-school__container .btn__back:hover {
+  background: green;
+  color: #FFF;
 }
 /*# sourceMappingURL=style.css.map */
