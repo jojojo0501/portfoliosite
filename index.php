@@ -166,6 +166,7 @@
                   <ul>
                     <li>初めてlaravelでCRUD処理を実装して作成したアプリ</li>
                     <li>ログインしていないと閲覧できないページ、AWSのs3を使用した画像アップロード機能の実装</li>
+                    <li>AWS（VPC、EC2、RDS）を用いてデプロイ予定（現在はHerokuを使用）</li>
                     <li>コミュニティ活性化のため、トップページでフォローしていない人の投稿も見れるよう実装</li>
                   </ul>
                 </div>
@@ -257,7 +258,7 @@
                       javascript(jQuery)の学習
                     </li>
                     <li>
-                      PHPの学習（laravelをより理解するためには、その基となるPHPの深い理解が大切であると考えている。）
+                      PHPの学習
                     </li>
                   </ul>
                 </div>
@@ -311,6 +312,8 @@
                   <ul>
                     <li>javascript(jQuery)で書いたタイピングゲーム</li>
                     <li>正解数、ミスタイプ数、所要時間を表示させるための実装</li>
+                    <li>生のPHPでユーザー登録機能、ログイン機能、ランキング
+                    機能等を実装予定</li>
                   </ul>
                 </div>
                 <div class="s-works__content s-works__appCode">
@@ -354,7 +357,7 @@
                   <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                   <ul>
                     <li>初めてReactを使用して作成したアウトプット（今後も改良予定）</li>
-                    <li>React Hooksを使用<br>(useEffect,useReducer,useContext,useState)</li>
+                    <li>React Hooksを使用</li>
                   </ul>
                 </div>
                 <div class="s-works__content s-works__appCode">

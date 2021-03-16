@@ -250,8 +250,8 @@ Top-section
   color: #333;
   line-height: 1.8;
   margin-top: 80px;
-  margin-left: 5%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
 }
 
@@ -388,6 +388,8 @@ Works
   .s-works__item {
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
 
