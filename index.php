@@ -94,19 +94,19 @@
         <h3>私のプログラミングの学習記録を時系列に沿って紹介します。</h3>
         <dl>
           <dt>2020年8月〜：<span>プログラミングとの出会い</span></dt>
-          <dd>現職の業務で、ある地区の水収支計算(田や畑の面積、降水量、気温などからその地区で農業をするために必要な水の量を算定すること)を行うプログラム<span>（FORTRANで書かれている）</span>を改造する業務を担いました。実際の作業は、定数で書かれている降雨データ（20年以上前のもの）を最新のものに書き換えたり、if文の条件を変更するものでした。当時、「htmlって何？」というような状態だったため、勉強しながら業務を進めていましたが、この業務をきっかけにプログラミングっておもしろそうだなと興味を持ちました。</dd>
-          <dt>2020年9月〜：<span>html、css</span></dt>
-          <dd>業務で少しプログラミングに触れたことをきっかけにウェブアプリを作ってみたいと思い、趣味として<span>html、css</span>の学習を始めました。あくまで趣味での学習であり、転職活動するなんて考えてもいませんでした。</dd>
+          <dd>現職の業務で、ある地区の水収支計算(田や畑の面積、降水量、気温などからその地区で農業をするために必要な水の量を算定すること)を行うプログラム<span>（FORTRANで書かれている）</span>を改造する業務を担いました。実際の作業は、定数で書かれている降雨データ（20年以上前のもの）を最新のものに書き換えたり、if文の条件を変更するものでした。当時、「HTMLって何？」というような状態だったため、勉強しながら業務を進めていましたが、この業務をきっかけにプログラミングっておもしろそうだなと興味を持ちました。</dd>
+          <dt>2020年9月〜：<span>HTML、CSS</span></dt>
+          <dd>業務で少しプログラミングに触れたことをきっかけにウェブアプリを作ってみたいと思い、趣味として<span>HTML、CSS</span>の学習を始めました。あくまで趣味での学習であり、転職活動をするなんて考えてもいませんでした。</dd>
           <dt>2020年10月〜：<span>ITパスポートの取得</span></dt>
           <dd>現職の会社の方針として、IT関連知識の強化があります。IT関連の最低限の基礎知識を身につけるため<span>ITパスポート</span>の学習をし無事、試験を通過しました。取得すると現職の会社から奨励金がもらえることも、試験学習のやる気に繋がりました。</dd>
-          <dt>2020年11月〜12月：<span>PHP(laravel)、MySQL</span></dt>
-          <dd>サーバーサイドの言語を学習するため、<span>PHP(laravel)</span>を学習しました。また、データベースを扱うため、<span>MySQL</span>を学習しました。これらとあわせて、ターミナル上での基礎的なコマンド操作、ソースコード管理のための<span>Git,GitHub</span>について学習を始めました。この頃から自分が書いたプログラムが動くことに対する喜びから、転職を意識して勉強に取り組み始めました。</dd>
-          <dt>2021年1月〜２月：<span>javascript</span></dt>
-          <dd>ウェブサイトに動きをつけるため、<span>javascript（jQuery）</span>を学習しました。その後、フレームワークである、<span>React</span>にも触れました。</dd>
+          <dt>2020年11月〜12月：<span>PHP(Laravel)、MySQL</span></dt>
+          <dd>サーバーサイドの言語を学習するため、<span>PHP(Laravel)</span>を学習しました。また、データベースを扱うため、<span>MySQL</span>を学習しました。これらとあわせて、ターミナル上での基礎的なコマンド操作、ソースコード管理のための<span>Git,GitHub</span>について学習を始めました。この頃から自分が書いたプログラムが動くことに対する喜びから、転職を意識して勉強に取り組み始めました。</dd>
+          <dt>2021年1月〜２月：<span>JavaScript</span></dt>
+          <dd>ウェブサイトに動きをつけるため、<span>JavaScript（jQuery）</span>を学習しました。その後、フレームワークである、<span>React</span>にも触れました。</dd>
           <dt>2021年2月〜現在：<span>ポートフォリオ作成、とりまとめ</span></dt>
           <dd>今までの学習で使用したアウトプット成果をポートフォリオとして取りまとめました。</dd>
-          <dt>2021年3月〜現在：<span>PHP、laravelの復習、AWSの学習</span></dt>
-          <dd>バックエンドエンジニアを目指すことを固め、PHP、laravel、AWSについて復習、学習中です。</dd>
+          <dt>2021年3月〜現在：<span>PHP、Laravelの復習、AWSの学習</span></dt>
+          <dd>バックエンドエンジニアを目指すことを固め、PHP、Laravel、AWSについて復習、学習中です。</dd>
         </dl>
       </section>
           <!-- /.skill-section -->
@@ -137,7 +137,7 @@
                       おすすめしたいカフェの画像、コメントを投稿することが可能
                     </li>
                     <li>
-                      イイね機能、フォロー機能、コメント機能、投稿削除機能を搭載
+                      いいね機能、フォロー機能、コメント機能、投稿削除機能、画像投稿機能等を搭載
                     </li>
                   </ul>
                 </div>
@@ -148,31 +148,32 @@
                       開発を通してウェブアプリの基本的な機能の作成方法を知る
                     </li>
                     <li>
-                      PHP(laravel)のアウトプット
+                      PHP(Laravel)のアウトプット
                     </li>
                     <li>
                       データベース、SQLコマンドの学習
                     </li>
                     <li>
-                      bootstrapの学習
+                      Bootstrapの学習
                     </li>
                     <li>
-                      AWS(cloud9)の使用方法の学習
+                      AWS(Cloud9)の使用方法の学習
                     </li>
                   </ul>
                 </div>
                 <div class="s-works__content s-works__appPoints">
                   <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                   <ul>
-                    <li>初めてlaravelでCRUD処理を実装して作成したアプリ</li>
-                    <li>ログインしていないと閲覧できないページ、AWSのs3を使用した画像アップロード機能の実装</li>
+                    <li>初めてLaravelでCRUD処理を実装して作成したアプリ</li>
+                    <li>ログインしていないと閲覧できないページ、AWSのS3を使用した画像アップロード機能の実装</li>
+                    <li>ゲストログインの実装</li>
                     <li>AWS（VPC、EC2、RDS）を用いてデプロイ予定（現在はHerokuを使用）</li>
                     <li>コミュニティ活性化のため、トップページでフォローしていない人の投稿も見れるよう実装</li>
                   </ul>
                 </div>
                 <div class="s-works__content s-works__appCode">
                   <h4><i class="icon fas fa-code"></i>ソースコード</h4>
-                  <p><a href="https://github.com/jojojo0501/CafeIntroductions" target="_blank">ソースコードはこちら(Github)</a></p>
+                  <p><a href="https://github.com/jojojo0501/CafeIntroductions" target="_blank">ソースコードはこちら(GitHub)</a></p>
                 </div>
                 <div class="s-works__content s-works__References">
                   <h4><i class="icon fas fa-pencil-alt"></i>参考資料(サイトマップ、データベース図の作成)</h4>
@@ -209,7 +210,7 @@
                       git関連のコマンドのアウトプット
                     </li>
                     <li>
-                      javascript(jQuery)、Sassの学習
+                      JavaScript(jQuery)、Sassの学習
                     </li>
                   </ul>
                 </div>
@@ -217,13 +218,13 @@
                   <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                   <ul>
                     <li>所属するオンラインサロンの現役エンジニアがPMとなり、未経験３人のチームメンバーでアプリ開発</li>
-                    <li>trelloのガントチャートでタスク管理。</li>
-                    <li>sassの記法はFLOCSSを使用。誰がみても分かりやすい命名、コードを意識しつつ製作。</li>
+                    <li>Trelloのガントチャートでタスク管理。</li>
+                    <li>Sassの記法はFLOCSSを使用。誰がみても分かりやすい命名、コードを意識しつつ製作。</li>
                   </ul>
                 </div>
                 <div class="s-works__content s-works__appCode">
                   <h4><i class="icon fas fa-code"></i>ソースコード</h4>
-                  <p><a href="https://github.com/jojojo0501/tenkue-hotel-r018" target="_blank">ソースコードはこちら(Github)</a></p>
+                  <p><a href="https://github.com/jojojo0501/tenkue-hotel-r018" target="_blank">ソースコードはこちら(GitHub)</a></p>
                 </div>
                 <div class="s-works__content s-works__References">
                   <h4><i class="icon fas fa-pencil-alt"></i>参考資料（Qiita記事の執筆）</h4>
@@ -255,7 +256,7 @@
                       作成したアウトプットの集約、とりまとめ
                     </li>
                     <li>
-                      javascript(jQuery)の学習
+                      JavaScript(jQuery)の学習
                     </li>
                     <li>
                       PHPの学習
@@ -273,7 +274,7 @@
                 </div>
                 <div class="s-works__content s-works__appCode">
                   <h4><i class="icon fas fa-code"></i>ソースコード</h4>
-                  <p><a href="https://github.com/jojojo0501/portfoliosite" target="_blank">ソースコードはこちら(Github)</a></p>
+                  <p><a href="https://github.com/jojojo0501/portfoliosite" target="_blank">ソースコードはこちら(GitHub)</a></p>
                 </div>
               </div>
             </div>
@@ -303,14 +304,14 @@
                   <h4><i class="icon far fa-calendar-check"></i>作成した意図、目的</h4>
                   <ul>
                     <li>
-                      javascript(jQuery)の学習、アウトプット
+                      JavaScript(jQuery)の学習、アウトプット
                     </li>
                   </ul>
                 </div>
                 <div class="s-works__content s-works__appPoints">
                   <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                   <ul>
-                    <li>javascript(jQuery)で書いたタイピングゲーム</li>
+                    <li>JavaScript(jQuery)で書いたタイピングゲーム</li>
                     <li>正解数、ミスタイプ数、所要時間を表示させるための実装</li>
                     <li>生のPHPでユーザー登録機能、ログイン機能、ランキング
                     機能等を実装予定</li>
@@ -318,7 +319,7 @@
                 </div>
                 <div class="s-works__content s-works__appCode">
                   <h4><i class="icon fas fa-code"></i>ソースコード</h4>
-                  <p><a href="https://github.com/jojojo0501/TypingGame" target="_blank">ソースコードはこちら(Github)</a></p>
+                  <p><a href="https://github.com/jojojo0501/TypingGame" target="_blank">ソースコードはこちら(GitHub)</a></p>
                 </div>
               </div>
             </div>
@@ -346,7 +347,7 @@
                       フロントエンドで主流のフレームワーク(React)に触れてみること。
                     </li>
                     <li>
-                      React Hooksの学習
+                      ReactHooksの学習
                     </li>
                     <li>
                       Reduxの学習
@@ -357,12 +358,12 @@
                   <h4><i class="icon far fa-lightbulb"></i>ポイント</h4>
                   <ul>
                     <li>初めてReactを使用して作成したアウトプット（今後も改良予定）</li>
-                    <li>React Hooksを使用</li>
+                    <li>ReactHooksを使用</li>
                   </ul>
                 </div>
                 <div class="s-works__content s-works__appCode">
                   <h4><i class="icon fas fa-code"></i>ソースコード</h4>
-                  <p><a href="https://github.com/jojojo0501/tasklist" target="_blank">ソースコードはこちら(Github)</a></p>
+                  <p><a href="https://github.com/jojojo0501/tasklist" target="_blank">ソースコードはこちら(GitHub)</a></p>
                 </div>
               </div>
             </div>
@@ -377,7 +378,7 @@
           <div class="s-others__item">
               <div class="s-others__title"><h3><i class="icon fas fa-book-open"></i>日々の学習について</h3></div>
               <ul>
-                <li><a href="https://twitter.com/sa04ru18kiti" target="_blank">毎日witterへの投稿(2020/12/21〜)</a></li>
+                <li><a href="https://twitter.com/sa04ru18kiti" target="_blank">毎日Twitterへの投稿(2020/12/21〜)</a></li>
                 <li><a href="https://qiita.com/jojojo0501" target="_blank">Qiita記事の執筆によるアウトプット</a></li>
                 <li>手帳を使った月単位、週単位のタスク管理をし、Googleカレンダーで日単位に落とし込み計画化<img src="./img/others/googlecalender.png" alt=""></li>
               </ul>
